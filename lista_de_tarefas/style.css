@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #013440;
+}
+
+.principal{
+    margin: auto; 
+    height: auto;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: #234D68;
+    color: white;
+}
+
+/*config divs:p, h1 e etc*/
+.principalh1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.principal p{
+    margin-bottom: 4px;
+}
+
+/*config dos botoes*/
+
+.principal input{
+    border-radius: 4px;
+    border: none;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.principal button{
+    border-radius: 4px;
+    border: none;
+    padding: 3px;
+    background-color: #566B81;
+}
+
+/*config baraa tarefas*/
+
+.tarefas{
+    border-radius: 4px;
+    background-color: #566B81;
+    color: #566B81;
+}
+
+.tarefas p{
+    background-color: white;
+    border-radius;
+    margin: 10px;
+}
