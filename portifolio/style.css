@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -105,4 +109,119 @@ header, section {
     }
 }
 
-/
+/* Estilo das Especialidades */
+
+#Especialidades h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.cor-espe{
+    color: rgba(0, 250, 67) ;
+}
+
+.Especialidades {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.Especialidades h1 {
+    color: white;
+}
+
+.style-espe {
+    color: white;
+    padding: 25px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), 
+    box-shadow 0.4s ease,border 0.4s ease;
+} 
+              
+.style-espe h2 {
+    margin-bottom: 20px;
+}
+
+.style-espe img,
+.style-espe svg {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.style-espe:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0px 4px 20px rgba(220, 220, 220, 0.4);
+}
+
+/*estilo sobre mim*/
+.sobre-mim{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;   
+}
+
+.img-mim img{
+    height: 500px;
+    border-radius: 20px;
+}
+
+.txt-mim {
+    max-width: 600px;
+    text-align: left;
+}
+
+.txt-mim p{
+    color: white;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.txt-mim h1{
+    margin-top: 40px;
+    color: white;
+    text-align: left;
+}
+
+.txt-mim span{
+    color: rgba(0, 250, 67) ;
+}
+
+.btn-social {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.btn-social a button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(0, 250, 67);
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+    will-change: transform;
+    backface-visibility: hidden; 
+}
+
+.btn-social button svg {
+    width: 24px;
+    height: 24px;
+    fill: #000000;
+    display: block;
+    pointer-events: none;
+    transform: translateZ(0); 
+}
+
+.btn-social a button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 2px 10px rgba(0, 250, 67, 0.9);
+}
